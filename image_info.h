@@ -1,0 +1,9 @@
+#ifndef _IMAGE_INFO_H_
+#define _IMAGE_INFO_H_
+
+#include <stdint.h>
+
+// Sometimes hovering might show false results in debugger, but these still have right values.
+extern uint32_t __firmwareOffset;
+
+#endif // #define _IMAGE_INFO_H_
